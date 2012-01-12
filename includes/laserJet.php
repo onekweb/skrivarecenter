@@ -1,10 +1,8 @@
 <?php
-class Laserjet implements printerType {
-		function printOut(){
-			echo "hej";
+class Laserjet {
+		function printBb(){
+			echo "svartvitt";
 		}
-		function collectPay(){
-			echo "hej";
-		}
+		
 	}
 ?>

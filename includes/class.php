@@ -5,6 +5,8 @@ class printJob{
 		$this->sendfile = $sendFile;
 	}
 	
+	
+	
 	public function setFile(){
 		$this->sendFile = $_POST['submit'];
 			if(isset($this->sendFile)) {
