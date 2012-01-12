@@ -26,46 +26,5 @@ class printJob{
 	}	
 }
 
-/*
-class Users{
-	private $name;
-	private $aftername;
-	private $saldo;
-	
-	public function __construct($name, $aftername, $saldo){
-		$this->aftername = $aftername;
-		$this->name = $name;
-		$this->saldo = $saldo;	
-	}		
-	
-	public function getFullName(){
-		return $this->aftername. ''. $this->name .''. $this->saldo;
-	}
-	
-}
-$nyUser = new  Users("Mario ", "Onekanda ", 100);
-$nyUser->name = "Mario";
 
-echo $nyUser->getFullName();
-
- class Car{
-	private $doors;
-	private $wheels;
-	private $model;	
-	
-	public function __construct(){
-		
-		$this->doors = 4;
-		$this->wheels = 4;
-		$this->model = "Volvo";
-	}	
-	
-	function getDoors(){
-		return $this->doors;
-	}
-}
-
-$mycar = new Car();
-echo $mycar->getDoors();
-*/
 ?>
